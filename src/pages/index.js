@@ -9,7 +9,7 @@ import Link from '../components/Link';
 import Copyright from '../components/Copyright';
 import MaskedInput from 'react-text-mask'
 
-const hexRegEx = /[a-fA-F0-9]/;
+const hexRegEx = /[A-Za-z0-9_]/;
 
 function TextMaskCustom(props) {
   const { inputRef, ...other } = props;
